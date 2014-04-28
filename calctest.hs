@@ -3,7 +3,8 @@ module Main where
 import Test.HUnit
 import Calc 
 
-main = putStrLn "tests arent running"
+
+main = putStrLn $ runTestTT tests
 
 test1 = TestCase (assertEqual "baseprice" (6.0) (baseprice 2.0 3.0))
 test2 = TestCase (assertEqual "stateTax" 1.08 (statetax "NV" 1))
