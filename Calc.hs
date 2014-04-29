@@ -11,7 +11,6 @@ applydiscount n
    | n < 10000 = n * 0.93
    | n < 50000 = n * 0.9
    | n > 49999 = n * 0.85
-   | otherwise = n
 
 statetax :: Fractional a => [Char] -> a -> a
 statetax s n
