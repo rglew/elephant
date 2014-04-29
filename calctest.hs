@@ -14,5 +14,5 @@ test5 = TestCase (assertEqual "statetax" 1.0625 (statetax "TX" 1))
 test6 = TestCase (assertEqual "statetax" 1.04 (statetax "AL" 1))
 test7 = TestCase (assertEqual "statetax" 1.0825 (statetax "CA" 1))
 
-tests = TestList [TestLabel "baseprice" test1, test2, test3, test4, test5, test6]
+tests = TestList [TestLabel "baseprice" test1, test2, test3, test4, test5, test6, test7]
 
