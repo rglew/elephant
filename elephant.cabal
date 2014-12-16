@@ -18,11 +18,11 @@ cabal-version:       >=1.8
 executable elephant
   main-is: Rcalc.hs             
   other-modules: Calc      
-  build-depends:       base ==4.6.*
+  build-depends:       base >=4.6
 
 Test-suite calc
   Main-Is:              calctest.hs
   Type:                 exitcode-stdio-1.0
-  build-depends:        base ==4.6.*
+  build-depends:        base >=4.6
 
   build-Depends:        HUnit
